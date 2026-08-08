@@ -17,8 +17,6 @@
   const lang = navigator.language.toLowerCase();
   if (lang.startsWith("fa")) {
     location.replace("fa/");
-  } else if (lang.startsWith("cn")) {
-    location.replace("cn/");
   } else {
     location.replace("en/");
   }
@@ -26,7 +24,8 @@
 </head>
 
 <body>
-  Redirecting...
+  <a href="en/">English</a>
+  <a href="fa/">فارسی</a>
 </body>
 
 </html>
