@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>NodeLook</title>
+  <subtitle>Latest posts from My Website</subtitle>
+  <link href="https://nodelook.github.io/en" />
+  <link rel="self" href="https://nodelook.github.io/en/feed.rss" />
+  <id>https://example.com/</id>
+  <updated>2026-08-08T20:00:00Z</updated>
+
+  <entry>
+    <title>My First Post</title>
+    <link href="https://example.com/posts/my-first-post" />
+    <id>https://example.com/posts/my-first-post</id>
+    <published>2026-08-08T18:00:00Z</published>
+    <updated>2026-08-08T18:00:00Z</updated>
+
+    <author>
+      <name>NodeLook Project</name>
+    </author>
+
+    <summary>A short description of my first post.</summary>
+    <content type="html">
+   <![CDATA[
+    <p>This is the content of my first post.</p>
+   ]]>
+  </content>
+  </entry>
+
+</feed>
