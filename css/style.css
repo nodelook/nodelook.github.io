@@ -1,6 +1,4 @@
 body {
-  background: white;
-  color: black;
   min-height: 100vh;
   margin: 0;
   display: flex;
@@ -8,24 +6,12 @@ body {
   text-align: center;
 }
 
-header,
 main {
   margin-inline: auto;
-}
-
-header {
   margin-top: auto;
 }
 
 footer {
   margin-top: auto;
   margin-bottom: 1rem;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background: black;
-    color: white;
-  }
 }

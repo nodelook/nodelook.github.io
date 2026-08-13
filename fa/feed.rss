@@ -3,8 +3,8 @@
 
   <title>گره‌نما</title>
   <subtitle>Latest posts from My Website</subtitle>
-  <link href="https://nodelook.github.io/fa" />
-  <link rel="self" href="https://nodelook.github.io/fa/feed.rss" />
+  <link href="./fa" />
+  <link rel="self" href="./fa/feed.rss" />
   <id>https://example.com/</id>
   <updated>2026-08-08T20:00:00Z</updated>
 

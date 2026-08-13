@@ -3,8 +3,8 @@
 
   <title>NodeLook</title>
   <subtitle>Latest posts from My Website</subtitle>
-  <link href="https://nodelook.github.io/en" />
-  <link rel="self" href="https://nodelook.github.io/en/feed.rss" />
+  <link href="./en" />
+  <link rel="self" href="./en/feed.rss" />
   <id>https://example.com/</id>
   <updated>2026-08-08T20:00:00Z</updated>
 
