@@ -24,7 +24,7 @@ clearCanvas();
 var t = 0; //counter variable
 var colors = ['#4f91f9', '#a7f94f', '#f94f4f', '#f9f74f', '#8930ff', '#fc4edf', '#ff9c51']; //color array for random color setting
 var nodeSize = 2.5; //node size (radius)
-var speed = 2; //base speed (added to each node random speed)
+var speed = 1; //base speed (added to each node random speed)
 var nodeAmount = 100; //node amount, the more the slower
 var nodes = []; //node array
 var lineWidth = 1; //node connection line width in pixels
