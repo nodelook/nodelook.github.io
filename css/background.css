@@ -1,11 +1,16 @@
-body {
-  background: white;
-  color: black;
+:root {
+  --background-color: white;
+  --text-color: black;
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background: black;
-    color: white;
+  :root {
+    --background-color: black;
+    --text-color: white;
   }
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
 }
